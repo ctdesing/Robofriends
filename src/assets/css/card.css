@@ -1,0 +1,31 @@
+
+.card {
+  background-color: rgba(121, 255, 204, 0.76);
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.2rem;
+  transition: all .2s ease-in-out;
+  text-align: center;
+  width: 220px;
+  height: 320px;
+}
+
+.card:hover {
+  transform: scale3d(1.04, 1.1, 1.1);
+}
+
+.card:active {
+  transform: scale3d(0.9, 0.9, 0.9);
+}
+
+
+@keyframes hover {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  to {
+    transform: scale3d(1.04, 1.1, 1.1);
+  }
+}
